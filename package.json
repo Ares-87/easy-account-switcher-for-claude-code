@@ -1,0 +1,89 @@
+{
+  "name": "claude-code-account-switcher",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "version": "0.1.0",
+  "publisher": "aresdesign",
+  "author": "AresDesign",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#1F1E1D",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ares-87/claude-code-account-switcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ares-87/claude-code-account-switcher/issues"
+  },
+  "homepage": "https://github.com/Ares-87/claude-code-account-switcher#readme",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "claude",
+    "claude code",
+    "anthropic",
+    "account",
+    "switcher",
+    "profile",
+    "multi-account",
+    "windows"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "l10n": "./l10n",
+  "contributes": {
+    "commands": [
+      {
+        "command": "claudeCodeAccountSwitcher.menu",
+        "title": "%cmd.menu%",
+        "icon": "$(account)"
+      },
+      {
+        "command": "claudeCodeAccountSwitcher.saveCurrent",
+        "title": "%cmd.saveCurrent%"
+      },
+      {
+        "command": "claudeCodeAccountSwitcher.add",
+        "title": "%cmd.add%"
+      },
+      {
+        "command": "claudeCodeAccountSwitcher.rename",
+        "title": "%cmd.rename%"
+      },
+      {
+        "command": "claudeCodeAccountSwitcher.remove",
+        "title": "%cmd.remove%"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "claudeCodeAccountSwitcher.menu",
+        "key": "ctrl+alt+a"
+      }
+    ],
+    "configuration": {
+      "title": "Claude Code Account Switcher",
+      "properties": {
+        "claudeCodeAccountSwitcher.claudeConfigDir": {
+          "type": "string",
+          "default": "",
+          "description": "%cfg.claudeConfigDir%"
+        },
+        "claudeCodeAccountSwitcher.autoReload": {
+          "type": "boolean",
+          "default": true,
+          "description": "%cfg.autoReload%"
+        }
+      }
+    }
+  }
+}

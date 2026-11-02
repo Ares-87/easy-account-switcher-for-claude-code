@@ -1,0 +1,6 @@
+*.vsix
+scripts/**
+.vscode/**
+node_modules/**
+*.ai
+

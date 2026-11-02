@@ -1,0 +1,11 @@
+{
+  "displayName": "Claude Code Account Switcher",
+  "description": "Cambia account Claude Code con un clic dalla barra di stato. Funziona su Windows, senza symlink né WSL. Non ufficiale.",
+  "cmd.menu": "Claude: Cambia account",
+  "cmd.saveCurrent": "Claude: Salva account corrente",
+  "cmd.add": "Claude: Aggiungi nuovo account",
+  "cmd.rename": "Claude: Rinomina account",
+  "cmd.remove": "Claude: Rimuovi account salvato",
+  "cfg.claudeConfigDir": "Cartella di configurazione di Claude Code. Vuoto = %USERPROFILE%\\.claude (oppure CLAUDE_CONFIG_DIR se impostata).",
+  "cfg.autoReload": "Ricarica automaticamente la finestra dopo il cambio account, così l'estensione Claude Code usa subito il nuovo account."
+}
