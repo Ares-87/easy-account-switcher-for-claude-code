@@ -1,0 +1,11 @@
+{
+  "displayName": "Claude Code Account Switcher",
+  "description": "Durum çubuğundan tek tıklamayla birden fazla Claude Code hesabı arasında geçiş yapın. Sembolik bağlantı veya WSL olmadan Windows'ta çalışır. Resmi değildir.",
+  "cmd.menu": "Claude: Hesap Değiştir",
+  "cmd.saveCurrent": "Claude: Mevcut Hesabı Kaydet",
+  "cmd.add": "Claude: Yeni Hesap Ekle",
+  "cmd.rename": "Claude: Hesabı Yeniden Adlandır",
+  "cmd.remove": "Claude: Kayıtlı Hesabı Kaldır",
+  "cfg.claudeConfigDir": "Claude Code yapılandırma klasörü. Boş = %USERPROFILE%\\.claude (veya ayarlanmışsa CLAUDE_CONFIG_DIR).",
+  "cfg.autoReload": "Hesap değiştirdikten sonra Claude Code uzantısının yeni hesabı hemen algılaması için pencereyi otomatik olarak yeniden yükle."
+}

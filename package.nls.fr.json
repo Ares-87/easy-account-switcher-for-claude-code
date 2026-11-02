@@ -1,0 +1,11 @@
+{
+  "displayName": "Claude Code Account Switcher",
+  "description": "Basculez entre plusieurs comptes Claude Code en un clic depuis la barre d'état. Fonctionne sous Windows, sans liens symboliques ni WSL. Non officiel.",
+  "cmd.menu": "Claude : Changer de compte",
+  "cmd.saveCurrent": "Claude : Enregistrer le compte actuel",
+  "cmd.add": "Claude : Ajouter un nouveau compte",
+  "cmd.rename": "Claude : Renommer le compte",
+  "cmd.remove": "Claude : Supprimer le compte enregistré",
+  "cfg.claudeConfigDir": "Dossier de configuration de Claude Code. Vide = %USERPROFILE%\\.claude (ou CLAUDE_CONFIG_DIR si défini).",
+  "cfg.autoReload": "Recharger automatiquement la fenêtre après le changement de compte pour que l'extension Claude Code prenne en compte le nouveau compte immédiatement."
+}

@@ -1,0 +1,11 @@
+{
+  "displayName": "Claude Code Account Switcher",
+  "description": "Cambia entre múltiples cuentas de Claude Code con un clic desde la barra de estado. Funciona en Windows, sin enlaces simbólicos ni WSL. No oficial.",
+  "cmd.menu": "Claude: Cambiar cuenta",
+  "cmd.saveCurrent": "Claude: Guardar cuenta actual",
+  "cmd.add": "Claude: Añadir nueva cuenta",
+  "cmd.rename": "Claude: Renombrar cuenta",
+  "cmd.remove": "Claude: Eliminar cuenta guardada",
+  "cfg.claudeConfigDir": "Carpeta de configuración de Claude Code. Vacío = %USERPROFILE%\\.claude (o CLAUDE_CONFIG_DIR si está definida).",
+  "cfg.autoReload": "Recargar automáticamente la ventana después de cambiar de cuenta para que la extensión Claude Code aplique la nueva cuenta de inmediato."
+}

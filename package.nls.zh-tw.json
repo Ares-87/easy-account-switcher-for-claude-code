@@ -1,0 +1,11 @@
+{
+  "displayName": "Claude Code Account Switcher",
+  "description": "從狀態列一鍵切換多個 Claude Code 帳號。原生支援 Windows，無需符號連結或 WSL。非官方擴充功能。",
+  "cmd.menu": "Claude: 切換帳號",
+  "cmd.saveCurrent": "Claude: 儲存目前帳號",
+  "cmd.add": "Claude: 新增帳號",
+  "cmd.rename": "Claude: 重新命名帳號",
+  "cmd.remove": "Claude: 移除已儲存的帳號",
+  "cfg.claudeConfigDir": "Claude Code 設定資料夾。留空 = %USERPROFILE%\\.claude（若已設定則為 CLAUDE_CONFIG_DIR）。",
+  "cfg.autoReload": "切換帳號後自動重新載入視窗，讓 Claude Code 擴充功能立即套用新帳號。"
+}

@@ -1,0 +1,11 @@
+{
+  "displayName": "Claude Code Account Switcher",
+  "description": "상태 표시줄에서 클릭 한 번으로 여러 Claude Code 계정을 전환합니다. 심볼릭 링크나 WSL 없이 Windows에서 작동합니다. 비공식.",
+  "cmd.menu": "Claude: 계정 전환",
+  "cmd.saveCurrent": "Claude: 현재 계정 저장",
+  "cmd.add": "Claude: 새 계정 추가",
+  "cmd.rename": "Claude: 계정 이름 변경",
+  "cmd.remove": "Claude: 저장된 계정 제거",
+  "cfg.claudeConfigDir": "Claude Code 설정 폴더. 비워둠 = %USERPROFILE%\\.claude (또는 설정된 경우 CLAUDE_CONFIG_DIR).",
+  "cfg.autoReload": "계정 전환 후 창을 자동으로 다시 로드하여 Claude Code 확장이 새 계정을 즉시 적용하도록 합니다."
+}

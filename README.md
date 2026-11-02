@@ -48,7 +48,7 @@ The extension detects new Claude Code authentications automatically and prompts 
 - **OS-Level Encrypted Storage:** Snapshots are safely stored in VS Code's `SecretStorage` (Windows DPAPI / Credential Manager), never in unencrypted plaintext files.
 - **Automatic Backup:** Creates an isolated timestamped backup of your credentials in `%USERPROFILE%\.claude-code-account-switcher-backup\` before the first modification of each session.
 - **Conflict Prevention:** Detects and alerts if legacy `CLAUDE_CONFIG_DIR` environment variables are conflicting with the session directory.
-- **Bilingual Interface:** Full English and Italian localization (automatically matches your VS Code display language).
+- **13 Languages Supported:** Automatically matches your VS Code display language — English, Italiano, Español, Français, Deutsch, Português (Brasil), 日本語, 简体中文, 繁體中文, 한국어, Русский, Polski, Türkçe.
 
 ---
 

@@ -117,3 +117,4 @@ If you have multiple VS Code editor windows open when switching profiles, reload
 
 ### Claude Config Directory Overrides
 If you previously used a script or tool that configured `CLAUDE_CONFIG_DIR` in `claudeCode.environmentVariables`, the extension will prompt you to safely remove it so that credentials map consistently.
+

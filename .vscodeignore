@@ -2,5 +2,5 @@
 scripts/**
 .vscode/**
 node_modules/**
-*.ai
-
+**/*.ai
+.gitignore

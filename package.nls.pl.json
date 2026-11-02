@@ -1,0 +1,11 @@
+{
+  "displayName": "Claude Code Account Switcher",
+  "description": "Przełączaj się między wieloma kontami Claude Code jednym kliknięciem na pasku stanu. Działa w systemie Windows bez dowiązań symbolicznych i WSL. Nieoficjalne.",
+  "cmd.menu": "Claude: Przełącz konto",
+  "cmd.saveCurrent": "Claude: Zapisz bieżące konto",
+  "cmd.add": "Claude: Dodaj nowe konto",
+  "cmd.rename": "Claude: Zmień nazwę konta",
+  "cmd.remove": "Claude: Usuń zapisane konto",
+  "cfg.claudeConfigDir": "Folder konfiguracji Claude Code. Pusty = %USERPROFILE%\\.claude (lub CLAUDE_CONFIG_DIR, jeśli ustawiono).",
+  "cfg.autoReload": "Automatycznie przeładuj okno po zmianie konta, aby rozszerzenie Claude Code od razu użyło nowego konta."
+}

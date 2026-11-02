@@ -1,0 +1,11 @@
+{
+  "displayName": "Claude Code Account Switcher",
+  "description": "ステータスバーからワンクリックで複数の Claude Code アカウントを切り替えます。Windows 対応（シンボリックリンクや WSL 不要）。非公式。",
+  "cmd.menu": "Claude: アカウントを切り替え",
+  "cmd.saveCurrent": "Claude: 現在のアカウントを保存",
+  "cmd.add": "Claude: 新しいアカウントを追加",
+  "cmd.rename": "Claude: アカウント名を変更",
+  "cmd.remove": "Claude: 保存済みアカウントを削除",
+  "cfg.claudeConfigDir": "Claude Code の設定フォルダー。空欄 = %USERPROFILE%\\.claude（または設定されている場合は CLAUDE_CONFIG_DIR）。",
+  "cfg.autoReload": "アカウント切り替え後にウィンドウを自動的に再読み込みし、Claude Code 拡張機能に新しいアカウントを即座に反映します。"
+}

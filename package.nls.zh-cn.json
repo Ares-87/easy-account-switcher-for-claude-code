@@ -1,0 +1,11 @@
+{
+  "displayName": "Claude Code Account Switcher",
+  "description": "从状态栏一键切换多个 Claude Code 账号。原生支持 Windows，无需符号链接或 WSL。非官方扩展。",
+  "cmd.menu": "Claude: 切换账号",
+  "cmd.saveCurrent": "Claude: 保存当前账号",
+  "cmd.add": "Claude: 添加新账号",
+  "cmd.rename": "Claude: 重命名账号",
+  "cmd.remove": "Claude: 移除已保存的账号",
+  "cfg.claudeConfigDir": "Claude Code 配置文件夹。留空 = %USERPROFILE%\\.claude（如果已设置则为 CLAUDE_CONFIG_DIR）。",
+  "cfg.autoReload": "切换账号后自动重新加载窗口，以便 Claude Code 扩展立即使用新账号。"
+}
