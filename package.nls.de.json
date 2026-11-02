@@ -1,5 +1,5 @@
 {
-  "displayName": "Claude Code Account Switcher",
+  "displayName": "Easy Account Switcher for Claude Code",
   "description": "Wechseln Sie mit einem Klick in der Statusleiste zwischen mehreren Claude Code-Konten. Funktioniert unter Windows ohne Symlinks oder WSL. Inoffiziell.",
   "cmd.menu": "Claude: Konto wechseln",
   "cmd.saveCurrent": "Claude: Aktuelles Konto speichern",

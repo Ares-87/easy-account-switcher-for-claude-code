@@ -7,7 +7,7 @@ fs.mkdirSync(l10nDir, { recursive: true });
 
 const nlsTranslations = {
   es: {
-    displayName: "Claude Code Account Switcher",
+    displayName: "Easy Account Switcher for Claude Code",
     description: "Cambia entre múltiples cuentas de Claude Code con un clic desde la barra de estado. Funciona en Windows, sin enlaces simbólicos ni WSL. No oficial.",
     "cmd.menu": "Claude: Cambiar cuenta",
     "cmd.saveCurrent": "Claude: Guardar cuenta actual",
@@ -18,7 +18,7 @@ const nlsTranslations = {
     "cfg.autoReload": "Recargar automáticamente la ventana después de cambiar de cuenta para que la extensión Claude Code aplique la nueva cuenta de inmediato."
   },
   fr: {
-    displayName: "Claude Code Account Switcher",
+    displayName: "Easy Account Switcher for Claude Code",
     description: "Basculez entre plusieurs comptes Claude Code en un clic depuis la barre d'état. Fonctionne sous Windows, sans liens symboliques ni WSL. Non officiel.",
     "cmd.menu": "Claude : Changer de compte",
     "cmd.saveCurrent": "Claude : Enregistrer le compte actuel",
@@ -29,7 +29,7 @@ const nlsTranslations = {
     "cfg.autoReload": "Recharger automatiquement la fenêtre après le changement de compte pour que l'extension Claude Code prenne en compte le nouveau compte immédiatement."
   },
   de: {
-    displayName: "Claude Code Account Switcher",
+    displayName: "Easy Account Switcher for Claude Code",
     description: "Wechseln Sie mit einem Klick in der Statusleiste zwischen mehreren Claude Code-Konten. Funktioniert unter Windows ohne Symlinks oder WSL. Inoffiziell.",
     "cmd.menu": "Claude: Konto wechseln",
     "cmd.saveCurrent": "Claude: Aktuelles Konto speichern",
@@ -40,7 +40,7 @@ const nlsTranslations = {
     "cfg.autoReload": "Fenster nach dem Kontowechsel automatisch neu laden, damit die Claude Code-Erweiterung das neue Konto sofort übernimmt."
   },
   "pt-br": {
-    displayName: "Claude Code Account Switcher",
+    displayName: "Easy Account Switcher for Claude Code",
     description: "Alterne entre várias contas do Claude Code com um clique na barra de status. Funciona no Windows, sem symlinks ou WSL. Não oficial.",
     "cmd.menu": "Claude: Alternar conta",
     "cmd.saveCurrent": "Claude: Salvar conta atual",
@@ -51,7 +51,7 @@ const nlsTranslations = {
     "cfg.autoReload": "Recarregar automaticamente a janela após alternar de conta, para que a extensão Claude Code use a nova conta imediatamente."
   },
   ja: {
-    displayName: "Claude Code Account Switcher",
+    displayName: "Easy Account Switcher for Claude Code",
     description: "ステータスバーからワンクリックで複数の Claude Code アカウントを切り替えます。Windows 対応（シンボリックリンクや WSL 不要）。非公式。",
     "cmd.menu": "Claude: アカウントを切り替え",
     "cmd.saveCurrent": "Claude: 現在のアカウントを保存",
@@ -62,7 +62,7 @@ const nlsTranslations = {
     "cfg.autoReload": "アカウント切り替え後にウィンドウを自動的に再読み込みし、Claude Code 拡張機能に新しいアカウントを即座に反映します。"
   },
   "zh-cn": {
-    displayName: "Claude Code Account Switcher",
+    displayName: "Easy Account Switcher for Claude Code",
     description: "从状态栏一键切换多个 Claude Code 账号。原生支持 Windows，无需符号链接或 WSL。非官方扩展。",
     "cmd.menu": "Claude: 切换账号",
     "cmd.saveCurrent": "Claude: 保存当前账号",
@@ -73,7 +73,7 @@ const nlsTranslations = {
     "cfg.autoReload": "切换账号后自动重新加载窗口，以便 Claude Code 扩展立即使用新账号。"
   },
   "zh-tw": {
-    displayName: "Claude Code Account Switcher",
+    displayName: "Easy Account Switcher for Claude Code",
     description: "從狀態列一鍵切換多個 Claude Code 帳號。原生支援 Windows，無需符號連結或 WSL。非官方擴充功能。",
     "cmd.menu": "Claude: 切換帳號",
     "cmd.saveCurrent": "Claude: 儲存目前帳號",
@@ -84,7 +84,7 @@ const nlsTranslations = {
     "cfg.autoReload": "切換帳號後自動重新載入視窗，讓 Claude Code 擴充功能立即套用新帳號。"
   },
   ko: {
-    displayName: "Claude Code Account Switcher",
+    displayName: "Easy Account Switcher for Claude Code",
     description: "상태 표시줄에서 클릭 한 번으로 여러 Claude Code 계정을 전환합니다. 심볼릭 링크나 WSL 없이 Windows에서 작동합니다. 비공식.",
     "cmd.menu": "Claude: 계정 전환",
     "cmd.saveCurrent": "Claude: 현재 계정 저장",
@@ -95,7 +95,7 @@ const nlsTranslations = {
     "cfg.autoReload": "계정 전환 후 창을 자동으로 다시 로드하여 Claude Code 확장이 새 계정을 즉시 적용하도록 합니다."
   },
   ru: {
-    displayName: "Claude Code Account Switcher",
+    displayName: "Easy Account Switcher for Claude Code",
     description: "Переключайтесь между несколькими аккаунтами Claude Code одним кликом в строке состояния. Работает в Windows без символических ссылок и WSL. Неофициальное расширение.",
     "cmd.menu": "Claude: Переключить аккаунт",
     "cmd.saveCurrent": "Claude: Сохранить текущий аккаунт",
@@ -106,7 +106,7 @@ const nlsTranslations = {
     "cfg.autoReload": "Автоматически перезагружать окно после смены аккаунта, чтобы расширение Claude Code сразу применило новый аккаунт."
   },
   pl: {
-    displayName: "Claude Code Account Switcher",
+    displayName: "Easy Account Switcher for Claude Code",
     description: "Przełączaj się między wieloma kontami Claude Code jednym kliknięciem na pasku stanu. Działa w systemie Windows bez dowiązań symbolicznych i WSL. Nieoficjalne.",
     "cmd.menu": "Claude: Przełącz konto",
     "cmd.saveCurrent": "Claude: Zapisz bieżące konto",
@@ -117,7 +117,7 @@ const nlsTranslations = {
     "cfg.autoReload": "Automatycznie przeładuj okno po zmianie konta, aby rozszerzenie Claude Code od razu użyło nowego konta."
   },
   tr: {
-    displayName: "Claude Code Account Switcher",
+    displayName: "Easy Account Switcher for Claude Code",
     description: "Durum çubuğundan tek tıklamayla birden fazla Claude Code hesabı arasında geçiş yapın. Sembolik bağlantı veya WSL olmadan Windows'ta çalışır. Resmi değildir.",
     "cmd.menu": "Claude: Hesap Değiştir",
     "cmd.saveCurrent": "Claude: Mevcut Hesabı Kaydet",
@@ -175,7 +175,7 @@ const bundleTranslations = {
     "CLAUDE_CONFIG_DIR is set in \"claudeCode.environmentVariables\" (maybe by another switcher). It can make Claude Code use a different folder than the one managed here.": "CLAUDE_CONFIG_DIR está definido en \"claudeCode.environmentVariables\" (quizás por otro selector). Puede hacer que Claude Code use una carpeta diferente a la gestionada aquí.",
     "Ignore": "Ignorar",
     "CLAUDE_CONFIG_DIR removed. Reload the window.": "CLAUDE_CONFIG_DIR eliminado. Recarga la ventana.",
-    "Claude Code Account Switcher: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Claude Code Account Switcher: macOS no es compatible (Claude Code guarda las credenciales en el Llavero allí)."
+    "Easy Account Switcher for Claude Code: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Easy Account Switcher for Claude Code: macOS no es compatible (Claude Code guarda las credenciales en el Llavero allí)."
   },
   fr: {
     "New Claude login detected: {0}. What do you want to call this account?": "Nouvelle connexion Claude détectée : {0}. Comment voulez-vous nommer ce compte ?",
@@ -222,7 +222,7 @@ const bundleTranslations = {
     "CLAUDE_CONFIG_DIR is set in \"claudeCode.environmentVariables\" (maybe by another switcher). It can make Claude Code use a different folder than the one managed here.": "CLAUDE_CONFIG_DIR est défini dans « claudeCode.environmentVariables » (peut-être par un autre sélecteur). Cela peut amener Claude Code à utiliser un dossier différent de celui géré ici.",
     "Ignore": "Ignorer",
     "CLAUDE_CONFIG_DIR removed. Reload the window.": "CLAUDE_CONFIG_DIR supprimé. Rechargez la fenêtre.",
-    "Claude Code Account Switcher: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Claude Code Account Switcher : macOS n'est pas pris en charge (Claude Code y stocke les identifiants dans le Trousseau)."
+    "Easy Account Switcher for Claude Code: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Easy Account Switcher for Claude Code : macOS n'est pas pris en charge (Claude Code y stocke les identifiants dans le Trousseau)."
   },
   de: {
     "New Claude login detected: {0}. What do you want to call this account?": "Neue Claude-Anmeldung erkannt: {0}. Wie möchten Sie dieses Konto nennen?",
@@ -269,7 +269,7 @@ const bundleTranslations = {
     "CLAUDE_CONFIG_DIR is set in \"claudeCode.environmentVariables\" (maybe by another switcher). It can make Claude Code use a different folder than the one managed here.": "CLAUDE_CONFIG_DIR ist in „claudeCode.environmentVariables“ festgelegt (möglicherweise durch einen anderen Switcher). Dies kann dazu führen, dass Claude Code einen anderen Ordner als den hier verwalteten verwendet.",
     "Ignore": "Ignorieren",
     "CLAUDE_CONFIG_DIR removed. Reload the window.": "CLAUDE_CONFIG_DIR entfernt. Laden Sie das Fenster neu.",
-    "Claude Code Account Switcher: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Claude Code Account Switcher: macOS wird nicht unterstützt (Claude Code speichert Anmeldedaten dort im Schlüsselbund)."
+    "Easy Account Switcher for Claude Code: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Easy Account Switcher for Claude Code: macOS wird nicht unterstützt (Claude Code speichert Anmeldedaten dort im Schlüsselbund)."
   },
   "pt-br": {
     "New Claude login detected: {0}. What do you want to call this account?": "Novo login do Claude detectado: {0}. Como você quer chamar esta conta?",
@@ -316,7 +316,7 @@ const bundleTranslations = {
     "CLAUDE_CONFIG_DIR is set in \"claudeCode.environmentVariables\" (maybe by another switcher). It can make Claude Code use a different folder than the one managed here.": "CLAUDE_CONFIG_DIR está definido em \"claudeCode.environmentVariables\" (talvez por outro alternador). Isso pode fazer o Claude Code usar uma pasta diferente da gerenciada aqui.",
     "Ignore": "Ignorar",
     "CLAUDE_CONFIG_DIR removed. Reload the window.": "CLAUDE_CONFIG_DIR removido. Recarregue a janela.",
-    "Claude Code Account Switcher: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Claude Code Account Switcher: macOS não é suportado (o Claude Code armazena as credenciais nas Chaves do sistema)."
+    "Easy Account Switcher for Claude Code: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Easy Account Switcher for Claude Code: macOS não é suportado (o Claude Code armazena as credenciais nas Chaves do sistema)."
   },
   ja: {
     "New Claude login detected: {0}. What do you want to call this account?": "新しい Claude ログインを検出しました: {0}。このアカウントの名前を入力してください:",
@@ -363,7 +363,7 @@ const bundleTranslations = {
     "CLAUDE_CONFIG_DIR is set in \"claudeCode.environmentVariables\" (maybe by another switcher). It can make Claude Code use a different folder than the one managed here.": "\"claudeCode.environmentVariables\" に CLAUDE_CONFIG_DIR が設定されています（別の切り替えツールによる可能性があります）。ここで管理しているフォルダーとは別のフォルダーが使用される場合があります。",
     "Ignore": "無視",
     "CLAUDE_CONFIG_DIR removed. Reload the window.": "CLAUDE_CONFIG_DIR を削除しました。ウィンドウを再読み込みしてください。",
-    "Claude Code Account Switcher: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Claude Code Account Switcher: macOS はサポートされていません（macOS 版 Claude Code は認証情報をキーチェーンに保存するため）。"
+    "Easy Account Switcher for Claude Code: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Easy Account Switcher for Claude Code: macOS はサポートされていません（macOS 版 Claude Code は認証情報をキーチェーンに保存するため）。"
   },
   "zh-cn": {
     "New Claude login detected: {0}. What do you want to call this account?": "检测到新的 Claude 登录：{0}。您想如何命名此账号？",
@@ -410,7 +410,7 @@ const bundleTranslations = {
     "CLAUDE_CONFIG_DIR is set in \"claudeCode.environmentVariables\" (maybe by another switcher). It can make Claude Code use a different folder than the one managed here.": "\"claudeCode.environmentVariables\" 中设置了 CLAUDE_CONFIG_DIR（可能由其他切换工具设置）。这会导致 Claude Code 使用与此处管理的不同的文件夹。",
     "Ignore": "忽略",
     "CLAUDE_CONFIG_DIR removed. Reload the window.": "已移除 CLAUDE_CONFIG_DIR。请重新加载窗口。",
-    "Claude Code Account Switcher: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Claude Code Account Switcher：不支持 macOS（Claude Code 在 macOS 上将凭据存储在钥匙串中）。"
+    "Easy Account Switcher for Claude Code: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Easy Account Switcher for Claude Code：不支持 macOS（Claude Code 在 macOS 上将凭据存储在钥匙串中）。"
   },
   "zh-tw": {
     "New Claude login detected: {0}. What do you want to call this account?": "偵測到新的 Claude 登入：{0}。您想如何命名此帳號？",
@@ -457,7 +457,7 @@ const bundleTranslations = {
     "CLAUDE_CONFIG_DIR is set in \"claudeCode.environmentVariables\" (maybe by another switcher). It can make Claude Code use a different folder than the one managed here.": "\"claudeCode.environmentVariables\" 中設定了 CLAUDE_CONFIG_DIR（可能由其他切換工具設定）。這可能導致 Claude Code 使用與此處管理不同的資料夾。",
     "Ignore": "忽略",
     "CLAUDE_CONFIG_DIR removed. Reload the window.": "已移除 CLAUDE_CONFIG_DIR。請重新載入視窗。",
-    "Claude Code Account Switcher: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Claude Code Account Switcher：不支援 macOS（Claude Code 在 macOS 上將憑證儲存在鑰匙圈中）。"
+    "Easy Account Switcher for Claude Code: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Easy Account Switcher for Claude Code：不支援 macOS（Claude Code 在 macOS 上將憑證儲存在鑰匙圈中）。"
   },
   ko: {
     "New Claude login detected: {0}. What do you want to call this account?": "새로운 Claude 로그인이 감지되었습니다: {0}. 이 계정의 이름을 무엇으로 지정하시겠습니까?",
@@ -504,7 +504,7 @@ const bundleTranslations = {
     "CLAUDE_CONFIG_DIR is set in \"claudeCode.environmentVariables\" (maybe by another switcher). It can make Claude Code use a different folder than the one managed here.": "\"claudeCode.environmentVariables\"에 CLAUDE_CONFIG_DIR이 설정되어 있습니다(다른 전환기에서 설정했을 수 있음). 이로 인해 Claude Code가 여기서 관리하는 폴더와 다른 폴더를 사용할 수 있습니다.",
     "Ignore": "무시",
     "CLAUDE_CONFIG_DIR removed. Reload the window.": "CLAUDE_CONFIG_DIR이 제거되었습니다. 창을 다시 로드하세요.",
-    "Claude Code Account Switcher: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Claude Code Account Switcher: macOS는 지원되지 않습니다(macOS에서는 자격 증명을 키체인에 저장함)."
+    "Easy Account Switcher for Claude Code: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Easy Account Switcher for Claude Code: macOS는 지원되지 않습니다(macOS에서는 자격 증명을 키체인에 저장함)."
   },
   ru: {
     "New Claude login detected: {0}. What do you want to call this account?": "Обнаружен новый вход в Claude: {0}. Как вы хотите назвать этот аккаунт?",
@@ -551,7 +551,7 @@ const bundleTranslations = {
     "CLAUDE_CONFIG_DIR is set in \"claudeCode.environmentVariables\" (maybe by another switcher). It can make Claude Code use a different folder than the one managed here.": "Переменная CLAUDE_CONFIG_DIR задана в «claudeCode.environmentVariables» (возможно, другим переключателем). Из-за этого Claude Code может использовать другую папку вместо управляемой здесь.",
     "Ignore": "Игнорировать",
     "CLAUDE_CONFIG_DIR removed. Reload the window.": "CLAUDE_CONFIG_DIR удалена. Перезагрузите окно.",
-    "Claude Code Account Switcher: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Claude Code Account Switcher: macOS не поддерживается (там Claude Code хранит учётные данные в Связке ключей)."
+    "Easy Account Switcher for Claude Code: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Easy Account Switcher for Claude Code: macOS не поддерживается (там Claude Code хранит учётные данные в Связке ключей)."
   },
   pl: {
     "New Claude login detected: {0}. What do you want to call this account?": "Wykryto nowe logowanie Claude: {0}. Jak chcesz nazwać to konto?",
@@ -598,7 +598,7 @@ const bundleTranslations = {
     "CLAUDE_CONFIG_DIR is set in \"claudeCode.environmentVariables\" (maybe by another switcher). It can make Claude Code use a different folder than the one managed here.": "Zmienna CLAUDE_CONFIG_DIR jest ustawiona w „claudeCode.environmentVariables” (być może przez inny przełącznik). Może to spowodować używanie przez Claude Code innego folderu niż zarządzany tutaj.",
     "Ignore": "Ignoruj",
     "CLAUDE_CONFIG_DIR removed. Reload the window.": "Usunięto CLAUDE_CONFIG_DIR. Przeładuj okno.",
-    "Claude Code Account Switcher: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Claude Code Account Switcher: system macOS nie jest obsługiwany (Claude Code przechowuje tam dane uwierzytelniające w pęku kluczy)."
+    "Easy Account Switcher for Claude Code: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Easy Account Switcher for Claude Code: system macOS nie jest obsługiwany (Claude Code przechowuje tam dane uwierzytelniające w pęku kluczy)."
   },
   tr: {
     "New Claude login detected: {0}. What do you want to call this account?": "Yeni Claude girişi algılandı: {0}. Bu hesaba ne ad vermek 공istersiniz?",
@@ -645,7 +645,7 @@ const bundleTranslations = {
     "CLAUDE_CONFIG_DIR is set in \"claudeCode.environmentVariables\" (maybe by another switcher). It can make Claude Code use a different folder than the one managed here.": "\"claudeCode.environmentVariables\" içinde CLAUDE_CONFIG_DIR ayarlanmış (belki başka bir değiştirici tarafından). Claude Code'un burada yönetilenden farklı bir klasör kullanmasına neden olabilir.",
     "Ignore": "Yoksay",
     "CLAUDE_CONFIG_DIR removed. Reload the window.": "CLAUDE_CONFIG_DIR kaldırıldı. Pencereyi yeniden yükleyin.",
-    "Claude Code Account Switcher: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Claude Code Account Switcher: macOS desteklenmiyor (Claude Code kimlik bilgilerini orada Anahtarlık'ta saklar)."
+    "Easy Account Switcher for Claude Code: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Easy Account Switcher for Claude Code: macOS desteklenmiyor (Claude Code kimlik bilgilerini orada Anahtarlık'ta saklar)."
   }
 };
 
@@ -664,3 +664,4 @@ for (const [lang, data] of Object.entries(bundleTranslations)) {
 }
 
 console.log('Generated languages:', Object.keys(nlsTranslations).join(', '));
+

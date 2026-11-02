@@ -43,5 +43,5 @@
   "CLAUDE_CONFIG_DIR is set in \"claudeCode.environmentVariables\" (maybe by another switcher). It can make Claude Code use a different folder than the one managed here.": "\"claudeCode.environmentVariables\" 中设置了 CLAUDE_CONFIG_DIR（可能由其他切换工具设置）。这会导致 Claude Code 使用与此处管理的不同的文件夹。",
   "Ignore": "忽略",
   "CLAUDE_CONFIG_DIR removed. Reload the window.": "已移除 CLAUDE_CONFIG_DIR。请重新加载窗口。",
-  "Claude Code Account Switcher: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Claude Code Account Switcher：不支持 macOS（Claude Code 在 macOS 上将凭据存储在钥匙串中）。"
+  "Easy Account Switcher for Claude Code: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Easy Account Switcher for Claude Code：不支持 macOS（Claude Code 在 macOS 上将凭据存储在钥匙串中）。"
 }

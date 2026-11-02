@@ -1,16 +1,16 @@
 <div align="center">
 
-<img src="images/icon.png" width="100" height="100" alt="Claude Code Account Switcher Logo" />
+<img src="images/icon.png" width="100" height="100" alt="Easy Account Switcher for Claude Code Logo" />
 
-# Claude Code Account Switcher
+# Easy Account Switcher for Claude Code
 
 **Switch between multiple Claude Code accounts (Work, Personal, Client) with one click from the VS Code status bar.**
 
 *Built specifically for Windows (and Linux). No symlinks, no WSL required, and 100% encrypted credential storage.*
 
-[![Visual Studio Marketplace](https://img.shields.io/badge/VS_Code_Marketplace-aresdesign.claude--code--account--switcher-blue.svg)](https://marketplace.visualstudio.com/manage)
+[![Visual Studio Marketplace](https://img.shields.io/badge/VS_Code_Marketplace-aresdesign.easy--account--switcher--for--claude--code-blue.svg)](https://marketplace.visualstudio.com/manage)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub](https://img.shields.io/badge/GitHub-Ares--87%2Fclaude--code--account--switcher-181717.svg?logo=github)](https://github.com/Ares-87/claude-code-account-switcher)
+[![GitHub](https://img.shields.io/badge/GitHub-Ares--87%2Feasy--account--switcher--for--claude--code-181717.svg?logo=github)](https://github.com/Ares-87/easy-account-switcher-for-claude-code)
 
 [English](#features) • [Italiano](#italiano) • [Step-by-Step Setup Guide](docs/SETUP_GUIDE.md)
 
@@ -46,7 +46,7 @@ The extension detects new Claude Code authentications automatically and prompts 
 - **Auto-Detection of New Logins:** Whenever you log in with a new account in the Claude Code panel, the extension immediately detects it and prompts you to save it.
 - **Token Refresh Protection:** Automatically syncs and updates OAuth access tokens right before switching, preventing session expiration and stale credentials.
 - **OS-Level Encrypted Storage:** Snapshots are safely stored in VS Code's `SecretStorage` (Windows DPAPI / Credential Manager), never in unencrypted plaintext files.
-- **Automatic Backup:** Creates an isolated timestamped backup of your credentials in `%USERPROFILE%\.claude-code-account-switcher-backup\` before the first modification of each session.
+- **Automatic Backup:** Creates an isolated timestamped backup of your credentials in `%USERPROFILE%\.easy-account-switcher-for-claude-code-backup\` before the first modification of each session.
 - **Conflict Prevention:** Detects and alerts if legacy `CLAUDE_CONFIG_DIR` environment variables are conflicting with the session directory.
 - **13 Languages Supported:** Automatically matches your VS Code display language — English, Italiano, Español, Français, Deutsch, Português (Brasil), 日本語, 简体中文, 繁體中文, 한국어, Русский, Polski, Türkçe.
 
@@ -87,7 +87,7 @@ For an in-depth walkthrough with tips and troubleshooting, see the [Full Setup G
 
 ## 🇮🇹 Italiano
 
-**Claude Code Account Switcher** ti permette di alternare tra più account Claude Code (es. Lavoro e Personale) con un solo clic dalla barra di stato di VS Code.
+**Easy Account Switcher for Claude Code** ti permette di alternare tra più account Claude Code (es. Lavoro e Personale) con un solo clic dalla barra di stato di VS Code.
 
 Progettato per **Windows** (e Linux): evita problemi con i collegamenti simbolici (symlink) e non richiede WSL.
 

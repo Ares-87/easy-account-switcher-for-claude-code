@@ -703,7 +703,7 @@ const HTML_TEMPLATE = `<!DOCTYPE html>
       <div class="toast-text" id="toast-text">Switched to "Personal" (ares@personal.dev)</div>
     </div>
     <div class="toast-source">
-      <span class="toast-ext-label">Extension: Claude Code Account Switcher</span>
+      <span class="toast-ext-label">Extension: Easy Account Switcher for Claude Code</span>
       <div class="toast-actions" id="toast-actions"></div>
     </div>
   </div>

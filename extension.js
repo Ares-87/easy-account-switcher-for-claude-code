@@ -1,4 +1,4 @@
-// Claude Code Account Switcher
+// Easy Account Switcher for Claude Code
 // Switches Claude Code accounts by swapping the saved OAuth credentials
 // (~/.claude/.credentials.json + "oauthAccount" in ~/.claude.json).
 // Account snapshots are stored encrypted in VS Code SecretStorage.
@@ -251,7 +251,7 @@ async function reloadAfterChange(text) {
 
 function reportError(e) {
   console.error('[claude-account-switcher]', e);
-  vscode.window.showErrorMessage(`Claude Code Account Switcher: ${e && e.message ? e.message : e}`);
+  vscode.window.showErrorMessage(`Easy Account Switcher for Claude Code: ${e && e.message ? e.message : e}`);
 }
 
 // ---------------------------------------------------------------- commands
@@ -470,7 +470,7 @@ function activate(context) {
 
   if (process.platform === 'darwin') {
     vscode.window.showWarningMessage(
-      t('Claude Code Account Switcher: macOS is not supported (Claude Code stores credentials in the Keychain there).')
+      t('Easy Account Switcher for Claude Code: macOS is not supported (Claude Code stores credentials in the Keychain there).')
     );
     return;
   }

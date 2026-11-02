@@ -43,5 +43,5 @@
   "CLAUDE_CONFIG_DIR is set in \"claudeCode.environmentVariables\" (maybe by another switcher). It can make Claude Code use a different folder than the one managed here.": "CLAUDE_CONFIG_DIR ist in „claudeCode.environmentVariables“ festgelegt (möglicherweise durch einen anderen Switcher). Dies kann dazu führen, dass Claude Code einen anderen Ordner als den hier verwalteten verwendet.",
   "Ignore": "Ignorieren",
   "CLAUDE_CONFIG_DIR removed. Reload the window.": "CLAUDE_CONFIG_DIR entfernt. Laden Sie das Fenster neu.",
-  "Claude Code Account Switcher: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Claude Code Account Switcher: macOS wird nicht unterstützt (Claude Code speichert Anmeldedaten dort im Schlüsselbund)."
+  "Easy Account Switcher for Claude Code: macOS is not supported (Claude Code stores credentials in the Keychain there).": "Easy Account Switcher for Claude Code: macOS wird nicht unterstützt (Claude Code speichert Anmeldedaten dort im Schlüsselbund)."
 }

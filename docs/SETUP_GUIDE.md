@@ -1,6 +1,6 @@
 # Step-by-Step Setup Guide
 
-This guide walks you through setting up and using **Claude Code Account Switcher** to seamlessly manage multiple Claude Code accounts (e.g., Work and Personal) in Visual Studio Code on Windows.
+This guide walks you through setting up and using **Easy Account Switcher for Claude Code** to seamlessly manage multiple Claude Code accounts (e.g., Work and Personal) in Visual Studio Code on Windows.
 
 ---
 
@@ -17,11 +17,11 @@ This guide walks you through setting up and using **Claude Code Account Switcher
 ### Option A: From VS Code Marketplace (Recommended once live)
 1. Open Visual Studio Code.
 2. Press `Ctrl+Shift+X` to open the Extensions view.
-3. Search for **`Claude Code Account Switcher`** (Publisher: `aresdesign`).
+3. Search for **`Easy Account Switcher for Claude Code`** (Publisher: `aresdesign`).
 4. Click **Install**.
 
 ### Option B: From `.vsix` Package
-1. Download `claude-code-account-switcher-0.1.0.vsix`.
+1. Download `easy-account-switcher-for-claude-code-0.1.0.vsix`.
 2. Press `Ctrl+Shift+P` (or `F1`) to open the Command Palette.
 3. Type and select **`Extensions: Install from VSIX...`**.
 4. Select the `.vsix` file to install it.
@@ -101,7 +101,7 @@ From the quick-pick menu (`Ctrl+Alt+A`), you can also:
 - **Encrypted Storage:** Account snapshots are stored inside VS Code's native `SecretStorage` service, backed by the operating system's cryptographic credential store (Windows DPAPI / Credential Manager).
 - **Automatic Session Backup:** Before making the first filesystem modification in any VS Code session, an automatic timestamped backup of `.credentials.json` and `.claude.json` is preserved in:
   ```
-  %USERPROFILE%\.claude-code-account-switcher-backup\
+  %USERPROFILE%\.easy-account-switcher-for-claude-code-backup\
   ```
 - **Zero Symlinks:** Avoids Windows filesystem symlink privilege barriers and compatibility issues.
 

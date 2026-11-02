@@ -1,5 +1,5 @@
 {
-  "displayName": "Claude Code Account Switcher",
+  "displayName": "Easy Account Switcher for Claude Code",
   "description": "ステータスバーからワンクリックで複数の Claude Code アカウントを切り替えます。Windows 対応（シンボリックリンクや WSL 不要）。非公式。",
   "cmd.menu": "Claude: アカウントを切り替え",
   "cmd.saveCurrent": "Claude: 現在のアカウントを保存",
